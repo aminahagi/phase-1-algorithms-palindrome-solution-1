@@ -1,7 +1,9 @@
 function isPalindrome(word) {
   // Write your algorithm here
 }
- 
+
+ /* 
+  Add your pseudocode here
 /* 
   that means if the word is the same as the word in reverse, I should return true.
   
@@ -26,19 +28,7 @@ function isPalindrome(word) {
   const reversedWord = reverse(word);
   return word === reversedWord; 
 }
-/* 
-  Add your pseudocode here
-*/
-//we need to split the words given
-//we need reverse
-//we need to join
-//return the code and find out whether they are palindrome or not a palindrome 
-/*
 
-  Add written explanation of your solution here
-*/
-
-// You can run `node index.js` to view these console logs
 if (require.main === module) {
   // add your own custom tests in here
   console.log("Expecting: true");
